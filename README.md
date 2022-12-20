@@ -2,12 +2,14 @@
 
 ## Intro
 
-example1:just HTML + CSS 
+example1: just HTML + CSS 
+
+example2: Buttons, choose one which you like
 
 ## Todo
 
 * [x] pure html + css
-* [ ] more css3
+* [x] buttons
 * [ ] with javascript
 * [ ] with Fetch
 * [x] onging

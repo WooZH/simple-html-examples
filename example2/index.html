@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../example1/style.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>A Button</title>
+  </head>
+  <body>
+    <div class="button-wrap">
+      <button class="button">static</button>
+      <button class="button button-shadow">shadow</button>
+      <button class="button button-hover">hover</button>
+      <button class="button button-hover button-colorful">colorful</button>
+      <button class="button button-hover button-transform">transform</button>
+      <button class="button button-hover button-border">transparent</button>
+    </div>
+    <div class="button-wrap">
+      <button class="button button-hover button-circle">circle</button>
+      <button class="button button-hover button-border button-rounded">
+        rounded
+      </button>
+    </div>
+    <div class="button-wrap">
+      <button
+        class="button button-hover button-border button-rounded button-click"
+      >
+        Click it
+      </button>
+      <button
+        class="button button-hover button-border button-rounded button-click"
+        onclick="alertIt()"
+      >
+        alert!
+      </button>
+    </div>
+
+    <div class="button-wrap">
+      <button class="button button-hover button-animation">animation</button>
+    </div>
+
+    <script>
+      function alertIt() {
+        window.alert("🎉");
+      }
+    </script>
+  </body>
+</html>
